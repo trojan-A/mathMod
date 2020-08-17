@@ -16,4 +16,5 @@ def mathMod2(MyNumber):
         Reminder = MyNumber %10
         Reverse_Number = (ReverseNumber *10) + Reminder
         MyNumber = MyNumber //10
-    print("Reverse of the provided number is = %d" %ReverseNumber)
+    print("Reverse of the provided number is = %d" 
+          %ReverseNumber)
